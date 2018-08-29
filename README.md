@@ -1,2 +1,1 @@
-# tools
-non-private various tools we use day to day
+- "skip.php" - this is the equivalent of "SET GLOBAL sql_slave_skip_counter" for GTID replication setups (master/master, multiple masters, master/slave, etc).  Runs with or without CHANNEL.
