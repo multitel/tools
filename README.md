@@ -1,1 +1,2 @@
 - "skip.php" - this is the equivalent of "SET GLOBAL sql_slave_skip_counter" for GTID replication setups (master/master, multiple masters, master/slave, etc).  Runs with or without CHANNEL.
+- "checkslave.php" - implements "skip.php" tool while forking. Checks slave status for multiple channels (can easily be modified for single master setup), repairs the replication issue and sends email notifications.
