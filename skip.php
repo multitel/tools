@@ -1,4 +1,11 @@
-#!/usr/bin/php
+#!/usr/bin/env php
+
+# Copyright MultiTEL LLC
+# Author: Dan Caescu
+# Feel free to use this code in however way you like. 
+# No warranties of any kind are given. This may or may not work for you.
+
+
 # - chmod it +x before running
 # - change the mysql password
 # - run it with or without the channel argument : ./skip.php sfldmidi
